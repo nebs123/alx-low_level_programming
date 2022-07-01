@@ -11,5 +11,5 @@ int main(void)
 	char msg[] = "and that piece of art is useful\" - Dora Korpar, \
 2015-10-19\n";
 	fwrite(msg, 1, strlen(msg), stderr);
-	return (0);
+	return (1);
 }
