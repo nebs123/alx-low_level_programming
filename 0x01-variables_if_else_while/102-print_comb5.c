@@ -3,7 +3,7 @@
 /**
  * main - entry point for our program
  *
- * Description: Prints out all combinations of doublee digit numbers
+ * Description: Prints out all combinations of two double digit numbers
  * Return: always returns 0
  */
 int main(void)
@@ -28,8 +28,7 @@ int main(void)
 					start4 = 0;
 				while (start4 < 10)
 				{
-					if (start != 0 || start2 != 0
-					    || start3 != 0 || start4 != 1)
+					if (start != 0 || start2 != 0 || start3 != 0 || start4 != 1)
 					{
 						putchar(',');
 						putchar(' ');
