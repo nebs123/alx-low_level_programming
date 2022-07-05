@@ -6,3 +6,8 @@
 4-isalpha.c - has function to test whether a given character is an alphabet
 5-sign.c - has function that prints the +,0 or - depending on the sign and returns 1,0 or -1 respectively
 6-abs.c - contains function that returns the absolute value of input
+7-print_last_digit.c - has function that prints out the last digit of input
+8-24_hours.c - function prints every minute of a 24 hr day
+9-times_table.c - function prints out the 9 times table
+10-add.c - function that returns the sum of two inputs
+11-print_to_98.c - function that prints number ranging from the input n upto 98
