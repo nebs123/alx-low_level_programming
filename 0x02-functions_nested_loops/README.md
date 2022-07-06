@@ -11,3 +11,5 @@
 9-times_table.c - function prints out the 9 times table
 10-add.c - function that returns the sum of two inputs
 11-print_to_98.c - function that prints number ranging from the input n upto 98
+100-times_table.c - function that takes input and prints an n times table
+101-natural.c - program that computes and prints the sum of all multiples of 3 or 5 below 1024
