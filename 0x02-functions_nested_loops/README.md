@@ -1,5 +1,5 @@
 # This is the project folder for project functions and nested loops.
-0-putchar.c - print out the string _putchar followed by a new line
+1;95;0c0-putchar.c - print out the string _putchar followed by a new line
 1-alphabet.c - has function to print out the alphabet from a-z
 2-print_alphabet_x10.c - has function to print out the alphabet(a-z)  10 times
 3-islower.c - contains function to test whether a given character is lowercase or not
@@ -13,3 +13,5 @@
 11-print_to_98.c - function that prints number ranging from the input n upto 98
 100-times_table.c - function that takes input and prints an n times table
 101-natural.c - program that computes and prints the sum of all multiples of 3 or 5 below 1024
+102-fibonacci.c - program that prints the first 50 fibonnaci numbers
+103-fibonacci.c - program that prints even numbered fibonnaci numbers less 4,000,000
