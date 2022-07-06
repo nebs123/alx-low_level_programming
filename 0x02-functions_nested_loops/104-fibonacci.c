@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <inttypes.h>
 
 /**
  * main - program that prints the first 98 fibonnaci numbers
@@ -11,7 +12,6 @@ int main(void)
 
 	first = 1;
 	second = 2;
-
 	printf("%lu, %lu", first, second);
 
 	for (counter = 2; counter < 98; counter++)
