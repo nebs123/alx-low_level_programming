@@ -6,7 +6,7 @@
  *
  * Return: nothing (void)
  */
-void print_number(int64_t n)
+void print_number(int n)
 {
 	if (n == 0)
 	{
