@@ -6,11 +6,11 @@
  *
  * Return: nothing (void)
  */
-void print_number(int n)
+void print_number(int64_t n)
 {
 	if (n == 0)
 	{
-		_putchar(n + '0');
+		_putchar('0');
 	}
 	else if (n < 0)
 	{
