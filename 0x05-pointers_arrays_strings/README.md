@@ -9,3 +9,4 @@
 7-puts_half.c - has function that prints second half of a string input
 8-print_array.c - has function that prints n elements of an array of integers, followed by a new line.
 9-strcpy.c -has function that copies a string from a source to a destination
+100-atoi.c - has function that converts a string into an integer.
