@@ -22,8 +22,6 @@ int _atoi(char *s)
 	{
 		if (*start == '-')
 			neg++;
-		else if (*start == '+')
-			neg--;
 		start++;
 	}
 	end = return_end(start);
@@ -33,7 +31,7 @@ int _atoi(char *s)
 		mult *= 10;
 	}
 
-	if (neg > 0)
+	if (neg % 2 == 1)
 		return (-val);
 	return (val);
 }
