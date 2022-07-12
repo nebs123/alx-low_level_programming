@@ -5,3 +5,7 @@
 3-puts.c - has function that prints a string to stdout
 4-print_rev.c - has function that prints a string in reverse to stdout
 5-rev_string.c - has function that can reverse stirng
+6-puts2.c - contains function that prints every other character from a string input, beginning with 1st character
+7-puts_half.c - has function that prints second half of a string input
+8-print_array.c - has function that prints n elements of an array of integers, followed by a new line.
+9-strcpy.c -has function that copies a string from a source to a destination
