@@ -4,3 +4,4 @@
 2-strlen.c - contains function that returns the length of a string
 3-puts.c - has function that prints a string to stdout
 4-print_rev.c - has function that prints a string in reverse to stdout
+5-rev_string.c - has function that can reverse stirng
