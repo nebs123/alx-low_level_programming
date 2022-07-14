@@ -5,3 +5,4 @@
 3-strcmp.c - contains function to lexographically compare two strings
 4-rev_array.c -contains function to reverse an array of ints
 5-string_toupper.c - contains function to turn all lowercase letter to upper case
+6-cap_string.c - function capitalizes the words in a string
