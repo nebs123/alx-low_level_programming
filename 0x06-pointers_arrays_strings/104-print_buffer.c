@@ -28,7 +28,7 @@ void print_buffer(char *b, int size)
 		{
 			if (singlet < size)
 			{
-				if (*(b + singlet) > 31)
+				if (*(b + singlet) > 31 && *(b + singlet) < 127)
 					printf("%c", *(b + singlet));
 				else
 					printf(".");
