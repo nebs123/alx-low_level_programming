@@ -7,3 +7,5 @@
 5-string_toupper.c - contains function to turn all lowercase letter to upper case
 6-cap_string.c - function capitalizes the words in a string
 7-leet.c - function that encodes a string into 1337.
+100-rot13.c - function that encodes a string in ROT13.
+101-print_number.c - function that prints an integer
