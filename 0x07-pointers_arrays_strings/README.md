@@ -7,3 +7,4 @@
 5-strstr.c - finds the 1st occurence of substring in a string
 7-print_chessboard.c - function that prints a chessboard
 8-print_diagsums.c - function that print the sum of 2 diagonals of a square matrix of two integers
+100-set_string.c - function that sets the value of a pointer to a char
