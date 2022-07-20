@@ -25,7 +25,7 @@ int min_square(int n, int k)
 	if (k * k == n)
 		return (k);
 	else if (k * k > n)
-		return (-1)
+		return (-1);
 	else
 		return (min_square(n, k + 1));
 }
