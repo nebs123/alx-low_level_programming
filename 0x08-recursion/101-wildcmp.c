@@ -12,6 +12,7 @@ int wildcmp(char *s1, char *s2)
 	if (*s2 == '*')
 	{
 		int n;
+
 		if (*s1 != '\0')
 		{
 			n = wildcmp(s1 + 1, s2);
@@ -23,8 +24,10 @@ int wildcmp(char *s1, char *s2)
 				return (1);
 		}
 		return (wildcmp(s1, s2 + 1));
+
 	} else if (*s1 == '\0' || *s2 == '\0')
 		return (*s1 == *s2);
+
 	else
 		return (*s1 == *s2 && wildcmp(s1 + 1, s2 + 1));
 }
