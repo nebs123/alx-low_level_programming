@@ -7,3 +7,4 @@
 5-sqrt_recursion.c - function that returns the sqrt of x
 6-is_prime_number.c - function that checks whether a no is prime or not
 100-is_palindrome.c - function that checks if input is palindrome
+101-wildcmp.c - function that checks if two strings are similar
