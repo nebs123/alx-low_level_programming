@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 	for (x = 1; x < argc; x++)
 	{
 		temp = strtol(argv[x], &end, 10);
-		if (argv[x] == end)
+		if (*end != '\0')
 		{
 			printf("Error\n");
 			return (1);
