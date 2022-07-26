@@ -31,12 +31,12 @@ int count_words(char *ptr)
  */
 char **strtow(char *str)
 {
-	int n, words, wordlen,z;
+	int n, words, wordlen, z;
 	char **wordArr, *str_count, *word;
 
-	if (str == NULL || !*str)
-		return (NULL);
 	words = count_words(str);
+	if (str == NULL || !*str || !words)
+		return (NULL);
 	wordArr = (char **) malloc(sizeof(int *) * (words + 1));
 	if (wordArr == NULL)
 		return (NULL);
