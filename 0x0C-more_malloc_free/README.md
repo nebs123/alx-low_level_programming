@@ -3,3 +3,4 @@
 1-string_nconcat.c - a function that concatenates the n bytes of string s2 to the end of string s1
 2-calloc.c - function that allocates memory for an array, using malloc
 3-array_range.c - function that creates an array of integers from min to max
+100-realloc.c - Write a function that reallocates a memory block using malloc and free
