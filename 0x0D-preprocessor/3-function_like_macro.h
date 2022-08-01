@@ -1,5 +1,5 @@
 #ifndef MAIN
 #define MAIN
-#define ABS(x) (x < 0 ? -x : x)
+#define ABS(X) ((X) < 0 ? -((unsigned int)X) : (X))
 typedef int to_make_iso_happy;
 #endif
