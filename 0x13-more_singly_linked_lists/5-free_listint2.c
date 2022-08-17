@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * free_listint - frees the memory allocated for list_t
+ * free_listint2 - frees the memory allocated for list_t
  * @head: address to a pointer to the head of the list
  *
  * Return: void (no return)
