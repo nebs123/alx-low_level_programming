@@ -1,5 +1,5 @@
 #include "lists.h"
-
+#include <stdlib.h>
 /**
  * pop_listint - pops the 1st element of listint_t and returns the int
  * @head: address to the pointer of the head of the list
@@ -16,6 +16,6 @@ int pop_listint(listint_t **head)
 		return (0);
 	header = *head;
 	*head = (*head)->next;
-
+	free(header);
 	return (header->n);
 }
