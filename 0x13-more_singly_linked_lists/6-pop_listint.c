@@ -9,7 +9,7 @@
 int pop_listint(listint_t **head)
 {
 	listint_t *header;
-	int returnable;
+	int ret;
 
 	if (head == NULL)
 		return (0);
@@ -18,9 +18,8 @@ int pop_listint(listint_t **head)
 
 	header = *head;
 	*head = (*head)->next;
-
-	returnable = header->n;
+	ret = header->n;
 	free(header);
 
-	return (returnable);
+	return (ret);
 }

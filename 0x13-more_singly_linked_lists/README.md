@@ -6,3 +6,5 @@
 4-free_listint.c - free the memory allocated for the listint_t
 5-free_listint2.c - free the memory allocated for the listint_t and assign head to NULL
 6-pop_listint.c - pops the first element of the list and return its data
+7-get_nodeint.c - get the node at a particular index
+8-sum_listint.c - get sum of int elements of nodes in the list
