@@ -49,7 +49,7 @@ int set_element_arr(hash_node_t **array, unsigned long int index,
 		node =  malloc(sizeof(hash_node_t));
 		if (!node)
 			return (0);
-		node->key = strdup(key);
+		node->key = key;
 		node->value = strdup(value);
 		node->next = array[index];
 		array[index] = node;
