@@ -9,17 +9,16 @@
  */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
-	unsigned long int index = key_index((const unsigned char *)key, ht->size);
+	unsigned long int index;
 
 	if (ht == NULL || key == NULL)
 		return (0);
 	if (*key == '\0')
 		return (0);
 
+	index = key_index((const unsigned char *)key, ht->size);
 	return (set_element_arr(ht->array, index, key, value));
 }
-
-
 /**
  * set_element_arr - adds element to array at given index
  * @array: array of hash_node_t pointers
@@ -49,7 +48,7 @@ int set_element_arr(hash_node_t **array, unsigned long int index,
 		node =  malloc(sizeof(hash_node_t));
 		if (!node)
 			return (0);
-		node->key = (char *)key;
+		node->key = strdup(key);
 		node->value = strdup(value);
 		node->next = array[index];
 		array[index] = node;
