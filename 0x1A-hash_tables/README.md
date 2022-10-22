@@ -4,4 +4,5 @@
 2-key_index.c: retrieves the index in array for given key     
 3-hash_table_set.c: add new key/value pair to the hashtable    
 4-hash_table_get.c: retrieve value for the key provided     
-5-hash_table_print.c: prints the hashtable key-value pairs
+5-hash_table_print.c: prints the hashtable key-value pairs     
+6-hash_table_delete.c: deletes a hashtable
