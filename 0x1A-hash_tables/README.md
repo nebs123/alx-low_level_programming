@@ -3,3 +3,5 @@
 1-djb2.c: contains the hash function to be used     
 2-key_index.c: retrieves the index in array for given key     
 3-hash_table_set.c: add new key/value pair to the hashtable    
+4-hash_table_get.c: retrieve value for the key provided     
+5-hash_table_print.c: prints the hashtable key-value pairs
