@@ -1,10 +1,9 @@
 CC = gcc
 SRC := $(wildcard *.c)
-OBJ := empty
+OBJ := $(SRC:%.c=%.o)
 NAME = school
 
-all: $(SRC:%.c=%.o)
-	$(CC) $(SRC:%.c=%.o) -o $(NAME)
+all: $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
 
-%.o: %.c
-	$(CC) -c -o $@ $<
+$(OBJ):  m.h
