@@ -8,3 +8,5 @@ a.out
 main.o
 school.o
 school
+main.py
+__pycache__
